@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 
 const galleryImages = [
-  { src: "/gallery1.jpg", alt: "Event Moment 1" },
-  { src: "/gallery2.jpg", alt: "Event Moment 2" },
-  // ... more images ...
+  { src: "image1.png", alt: "Event Moment 1" },
+  { src: "image2.png", alt: "Event Moment 2" },
+  { src: "image3.png", alt: "Event Moment 3" },
+  { src: "image4.png", alt: "Event Moment 4" },
 ];
 
 const Gallery = () => {
